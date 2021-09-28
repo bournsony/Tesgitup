@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-style: arial,helvetica,sans-serif;
+}
+nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px 4px 15px;
+}
+.hearder_page{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    padding: 10px 10px;
+}
+.item:hover{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: -1px;
+}
+.logo{
+    text-align: center;
+    margin: 1px;
+    margin-bottom: -5px;
+    padding: 3.5px 8px 0 1px;
+    height: 43.2px;
+
+}
+a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover{
+    border:1px solid #fff;
+    margin: -1px;
+    border-radius: 3px;
+}
+p{
+    font-size: 17px;
+    line-height: 15px;
+    color: #ddd;
+    margin-left: 23px;
+}
+.item i{
+    padding: 0 5px;
+    font-size: 15px;
+}
+nav input{
+    width: 1400px;
+    padding: 10px;
+    font-size: 17px;
+    border:none;
+    outline: none;
+    color: #000;
+}
+nav button{
+    padding: 10px 10px;
+    color: #000;
+    font-style:normal;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+nav .all{
+    background: #ddd;
+    border-radius: 5px 0 0 5px;
+}
+nav .search{
+    padding: 10px 17px;
+    margin: -2px;
+    background: rgb(247,155,80);
+    border-radius: 0 5px 5px 0;
+}
+.subnavigation{
+    background-color: #232f3e;
+    padding: 6px 15px;
+}
+.submenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+    font-weight: 5000;
+    padding: 1px 5px;
+    font-size: 14px;
+}
+nav .submenu i{
+    font-size: 16px;
+}
+li{margin: -5px;}
+

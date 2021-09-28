@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    background: url("../image/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+.contener{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(44, 62, 80, 0.7);
+    border-radius: 04px;
+    margin-top: 160px;
+}
+.contener img{
+    width: 150px;
+    height: 150px;
+    margin-top: -60px;
+    margin-right: 30px;
+    text-align: center;
+}
+.loginform{
+    width: 100%S;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}

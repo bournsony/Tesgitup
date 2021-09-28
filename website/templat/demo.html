@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e22feb503d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                BSN Branding
+            </li>
+            <li class="btn"><span class="fas fa-bars"></span></span></li>
+            <div class="items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+            <li class="search-icon">
+                <input type="search" placeholder="Search">
+                <label class="icon">
+                    <span class="fas fa-search"></span>
+                </label>
+                
+            </li>
+            <div class="">
+
+            </div>
+        </ul>
+    </nav>
+    <script>
+        $('nav ul li.btn span').click(function(){
+            $('nav ul div.items').toggleClass("show");
+            $('nav ul li.btn span').toggleClass("show");
+        })
+    </script>
+</body>
+</html>
